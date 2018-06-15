@@ -9,7 +9,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import StratifiedKFold
 
-__all__ = ["anonymize_mindcontrol_data"]
+__all__ = ["aggregate_braindr_votes", "model"]
 
 
 # Use duecredit (duecredit.org) to provide a citation to relevant work to

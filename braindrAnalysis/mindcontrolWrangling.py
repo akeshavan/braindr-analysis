@@ -99,7 +99,7 @@ def get_truth_labels(input_data,
     """
 
     log = {}
-    mind_df = pd.read_csv(input_data)
+    mind_df = pd.read_json(input_data)
     mind_df = mind_df[mind_df.entry_type == modality]
     mind_df_tidy = tidy_df(mind_df)
     log['tidy_df'] = mind_df_tidy.to_json()
