@@ -4,3 +4,6 @@
 _build/
 auto_examples/
 gen_api/
+mindcontrol-feb-21-18.json
+braindrAnalysis.egg-info/
+braindrAnalysis/data/braindr_slice_data.npz
