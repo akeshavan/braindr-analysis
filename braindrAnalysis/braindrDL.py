@@ -63,8 +63,8 @@ def run_model(X_vgg, y, img_labels, gold, out_path, i=0):
     tf.set_random_seed(i)
     batch_size = 16
     epochs = 50
-    filename = "{out_path}/training%04d.csv" % i
-    filepath = "{out_path}/best_model%04d.h5" % i
+    filename = ("{out_path}/training%04d.csv" % i).format(out_path=out_path)
+    filepath = ("{out_path}/best_model%04d.h5" % i).format(out_path=out_path)
 
     # get split indices, as a function of random seed
     train_idx, test_idx, val_idx = get_split_indices(img_labels.subject.values,
