@@ -70,4 +70,4 @@ MINOR = _version_minor
 MICRO = _version_micro
 VERSION = __version__
 PACKAGE_DATA = {'braindrAnalysis': [pjoin('data', '*')]}
-REQUIRES = ["numpy", "simplejson", "pandas", "sklearn", "xgboost"]
+REQUIRES = ["numpy", "simplejson", "pandas", "sklearn", "xgboost", "tensorflow", "scikit-image", "keras"]
